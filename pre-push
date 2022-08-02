@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+cp index.html build/index.html
+cp favicon.ico build/favicon.ico
+cp -R img/ build/img/
+
+s3cmd sync --recursive build/ s3://iacutone-dental
+echo -e "\t Successfully deployed to S3"
