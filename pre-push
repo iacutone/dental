@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-cp english.html build/english.html
 cp index.html build/index.html
 cp favicon.ico build/favicon.ico
 cp -R img/ build/img/
