@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.en {
+  display: none;
+}
+
+#contact {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#contact img {
+  height: 100%;
+  min-height: 125vh;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+@media (max-width: 844px) {
+  #contact img {
+    min-height: 125vh;
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+nav {
+  min-height: 72px;
+}

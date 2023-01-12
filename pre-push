@@ -2,6 +2,7 @@
 set -e
 
 cp index.html build/index.html
+cp output.css build/output.css
 cp favicon.ico build/favicon.ico
 cp -R img/ build/img/
 
